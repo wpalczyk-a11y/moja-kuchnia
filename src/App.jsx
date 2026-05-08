@@ -37,11 +37,11 @@ const RECIPES = [
     eq:["Air Fryer","3 głębokie talerze","Termometr"],
     mise:["Osusz kurczaka ręcznikiem","3 talerze: mąka, jajko, cornflakes z przyprawami","Air fryer do 195°C"],
     steps:[{s:1,t:"3 talerze",a:"Mąka, jajko, cornflakes z przyprawami. Mocno dociskaj."},{s:2,t:"Air Fryer 195°C",a:"5ml oleju z góry. 16 min, przekładaj w połowie. 74°C."},{s:3,t:"Talerz",a:"2 min odpoczynku."}]},
-  { id:7, name:"Burrito Bowl z kurczakiem chipotle", emoji:"🌮", cat:"Meksykański", time:"35 min + marynata", srv:6, diff:"Łatwy", kcal:"~480 kcal", prot:"~42g", desc:"Kurczak marynowany overnight w chipotle. Meal prep 6 porcji.",
-    ing:[{n:"Piersi z kurczaka",a:"800",u:"g"},{n:"Salsa chipotle Herdez",a:"100",u:"g"},{n:"Sos sojowy",a:"20",u:"ml"},{n:"Czosnek świeży",a:"4",u:"ząbki"},{n:"Kmin rzymski",a:"4",u:"g"},{n:"Papryka wędzona",a:"4",u:"g"},{n:"Sok z limonki",a:"30",u:"ml"},{n:"Ryż basmati",a:"360",u:"g"},{n:"Fasola czarna",a:"2",u:"puszki"},{n:"Kukurydza",a:"1",u:"puszka"},{n:"Cebula czerwona",a:"1",u:"szt"},{n:"Awokado",a:"3",u:"szt"},{n:"Śmietana 18%",a:"200",u:"ml"},{n:"Kolendra",a:"1",u:"pęczek"},{n:"Limonki",a:"2",u:"szt"}],
-    eq:["Patelnia stalowa 36cm","Garnek","Miska do marynaty"],
-    mise:["DZIEŃ WCZEŚNIEJ: kurczak w plastry 1.5cm. Marynata: 100g chipotle + 20ml sojowy + 4 ząbki + 4g kmin + 4g papryka + 30ml limonka. Lodówka na noc.","Kurczak 15 min przed z lodówki","Ugotuj 360g ryżu","Cebula + sok limonki = szybka pikla"],
-    steps:[{s:1,t:"Garnek",a:"360g ryżu. Na koniec kolendra + sok limonki."},{s:2,t:"Patelnia 36cm MAX",a:"Kurczak partiami. 3-4 min, obróć 2-3 min. Zwęglone brzegi. 74°C."},{s:3,t:"Deska",a:"Kurczak w plastry. Awokado + limonka."},{s:4,t:"Pojemniki",a:"Ryż, fasola, kukurydza, kurczak, pikla, awokado, śmietana."}]},
+  { id:7, name:"Burrito Bowl z kurczakiem chipotle", emoji:"🌮", cat:"Meksykański", time:"35 min + marynata", srv:6, diff:"Łatwy", kcal:"~480 kcal", prot:"~42g", desc:"Kurczak marynowany overnight w chipotle. Meal prep 6 porcji — lepszy na drugi dzień.",
+    ing:[{n:"Piersi z kurczaka",a:"800",u:"g"},{n:"Salsa chipotle Herdez (marynata)",a:"100",u:"g"},{n:"Sos sojowy (marynata)",a:"20",u:"ml"},{n:"Czosnek świeży (marynata)",a:"4",u:"ząbki"},{n:"Kmin rzymski (marynata)",a:"4",u:"g"},{n:"Papryka wędzona (marynata)",a:"4",u:"g"},{n:"Sok z limonki (marynata)",a:"30",u:"ml"},{n:"Ryż basmati",a:"360",u:"g"},{n:"Fasola czarna",a:"2",u:"puszki"},{n:"Kukurydza",a:"1",u:"puszka"},{n:"Cebula czerwona",a:"1",u:"szt"},{n:"Awokado",a:"3",u:"szt"},{n:"Śmietana 18%",a:"200",u:"ml"},{n:"Kolendra świeża",a:"1",u:"pęczek"},{n:"Limonki",a:"2",u:"szt"},{n:"Olej rzepakowy",a:"20",u:"ml"}],
+    eq:["Patelnia stalowa 36cm","Garnek ze stali nierdzewnej","Miska do marynaty","Pojemniki meal prep"],
+    mise:["DZIEŃ WCZEŚNIEJ WIECZOREM: pokrój 800g kurczaka w plastry ~1.5cm. W misce wymieszaj: 100g salsa chipotle + 20ml sos sojowy + 4 ząbki czosnku przeciśniętego + 4g kmin + 4g papryka wędzona + 30ml sok z limonki. Zalej kurczaka marynatą, zakryj folią i wstaw do lodówki na minimum 8 godzin.","Dzień gotowania: wyjmij kurczaka z lodówki 15 min przed smażeniem — zimny kurczak na patelni = para zamiast przypieczenia","Cebula czerwona: pokrój w drobną kostkę, zalej sokiem z 1 limonki, szczyptą soli — odstaw na 15 min. To szybka pikla która przełamie tłustość kurczaka.","Fasolę i kukurydzę odcedź i opłucz zimną wodą","Awokado kroisz dopiero przed samym podaniem — inaczej ściemnieje"],
+    steps:[{s:1,t:"Garnek ze stali nierdzewnej",a:"Wsyp 360g ryżu basmati, zalej 540ml zimnej wody (proporcja 1:1.5), szczyptę soli. Doprowadź do wrzenia na mocnym ogniu, zmniejsz do minimum, przykryj. Gotuj 12 min, zdejmij z ognia, nie odkrywaj przez kolejne 5 min. Przed podaniem wmieszaj posiekaną kolendrę i sok z połowy limonki."},{s:2,t:"Patelnia stalowa 36cm — MAKSYMALNY ogień",a:"Rozgrzej patelnię 2-3 min do maksimum (test wodny). Wlej 20ml oleju. Kurczak wchodzi PARTIAMI — nie wrzucaj całości naraz bo się ugotuje w parze. Pierwsza porcja: rozkładasz plastry w jednej warstwie, NIE ruszasz przez 3-4 min aż brzegi zaczną bielec. Dopiero wtedy obracasz. Kolejne 2-3 min. Chcesz ciemne, lekko zwęglone brzegi — to cały smak. Temperatura wewnętrzna: 74°C. Odkładasz na deskę, robisz kolejną partię."},{s:3,t:"Deska do krojenia",a:"Kurczaka możesz zostawić w plasterkach lub poszarpać widelcami na grubsze kawałki — obie opcje działają. Awokado: przekrój wzdłuż, usuń pestkę, łyżką wyciągnij miąższ, pokrój w plastry lub kostkę. Od razu skrop sokiem z limonki żeby nie ściemniało."},{s:4,t:"Pojemniki meal prep (6 szt.)",a:"Na dno każdego pojemnika: garść ryżu. Obok: 2-3 łyżki fasoli czarnej, 2 łyżki kukurydzy. Na wierzch: porcja kurczaka. Dekoracja: łyżka pikli z cebuli, plastry awokado, łyżka śmietany 18%. Skrop resztką soku z limonki. Zamknij. W lodówce trzyma 4 dni — smak się przegryza i jest lepszy na drugi dzień."}]},
   { id:8, name:"Chili con carne", emoji:"🫕", cat:"Meksykański", time:"20 min + 90 min", srv:6, diff:"Łatwy", kcal:"~520 kcal", prot:"~38g", desc:"Dutch oven — samo się gotuje. Lepsze na drugi dzień. 6 porcji meal prep.",
     ing:[{n:"Wołowina mielona",a:"700",u:"g"},{n:"Fasola czarna",a:"2",u:"puszki"},{n:"Polpa pomidorowa",a:"2",u:"puszki"},{n:"Koncentrat pomidorowy",a:"60",u:"g"},{n:"Cebula",a:"2",u:"szt"},{n:"Czosnek świeży",a:"6",u:"ząbków"},{n:"Papryka czerwona",a:"2",u:"szt"},{n:"Salsa chipotle Herdez",a:"80",u:"g"},{n:"Kmin rzymski",a:"6",u:"g"},{n:"Papryka wędzona",a:"6",u:"g"},{n:"Oregano",a:"4",u:"g"},{n:"Bulion lub woda",a:"200",u:"ml"},{n:"Olej rzepakowy",a:"20",u:"ml"},{n:"Śmietana 18%",a:"150",u:"ml"},{n:"Ser żółty",a:"150",u:"g"}],
     eq:["Dutch oven 5.6L","Deska"],
@@ -180,6 +180,13 @@ export default function App() {
     setPantry(p => p.map(i => i.id === id ? {...i, status: next} : i));
   };
 
+  const addPantryToCart = async (item) => {
+    const toAdd = [{ name: item.name, amount: "", unit: "", recipe: "Magazyn", checked: false }];
+    const { data: added } = await sb.from("shopping_list").insert(toAdd).select();
+    setCart(p => [...p, ...(added || [])]);
+    setView("cart");
+  };
+
   const addPantryItem = async () => {
     if (!newItem.trim()) return;
     const { data: added } = await sb.from("pantry").insert([{ name: newItem.trim(), category: newCat, status: "high" }]).select();
@@ -314,8 +321,8 @@ export default function App() {
             <button onClick={() => { setStep(0); setView("cook"); }} style={{flex:1,background:"#2d2416",border:"none",color:"#faf7f2",borderRadius:10,padding:"9px",cursor:"pointer",fontSize:12,fontFamily:"inherit"}}>Tryb gotowania</button>
           </div>
           <Box t="Sprzęt"><div style={{display:"flex",flexWrap:"wrap",gap:6}}>{sel.eq.map((e,i) => <span key={i} style={{background:"#f0ebe0",border:"1px solid #ddd5c0",borderRadius:7,padding:"4px 9px",fontSize:11}}>{e}</span>)}</div></Box>
-          <Box t="Mise en place">{sel.mise.map((m,i) => <div key={i} style={{display:"flex",gap:10,padding:"6px 0",borderBottom:i<sel.mise.length-1?"1px solid #f0ebe0":"none"}}><span style={{color:"#a08050",fontWeight:"bold",minWidth:18,fontSize:12}}>{i+1}.</span><span style={{fontSize:12,lineHeight:1.5}}>{m}</span></div>)}</Box>
           <Box t="Składniki">{sel.ing.map((i,idx) => i.n && <div key={idx} style={{display:"flex",justifyContent:"space-between",padding:"6px 0",borderBottom:idx<sel.ing.length-1?"1px solid #f0ebe0":"none",fontSize:12}}><span>{i.n}</span><span style={{color:"#7a6a50",fontWeight:"bold"}}>{i.a} {i.u}</span></div>)}</Box>
+          <Box t="Mise en place">{sel.mise.map((m,i) => <div key={i} style={{display:"flex",gap:10,padding:"6px 0",borderBottom:i<sel.mise.length-1?"1px solid #f0ebe0":"none"}}><span style={{color:"#a08050",fontWeight:"bold",minWidth:18,fontSize:12}}>{i+1}.</span><span style={{fontSize:12,lineHeight:1.5}}>{m}</span></div>)}</Box>
           <Box t="Kroki">{sel.steps.map(s => <div key={s.s} style={{display:"flex",gap:12,padding:"10px 0",borderBottom:s.s<sel.steps.length?"1px solid #f0ebe0":"none"}}><div style={{width:26,height:26,background:"#2d2416",color:"#faf7f2",borderRadius:"50%",display:"flex",alignItems:"center",justifyContent:"center",fontSize:12,flexShrink:0,fontWeight:"bold"}}>{s.s}</div><div><div style={{fontSize:9,color:"#a08050",letterSpacing:1,marginBottom:3,textTransform:"uppercase"}}>{s.t}</div><div style={{fontSize:13,lineHeight:1.6}}>{s.a}</div></div></div>)}</Box>
         </div>}
 
@@ -400,9 +407,10 @@ export default function App() {
             return <div key={c} style={{marginBottom:16}}>
               <div style={{fontSize:9,letterSpacing:2,color:"#a08050",textTransform:"uppercase",marginBottom:6,paddingBottom:5,borderBottom:"1px solid #f0ebe0"}}>{c}</div>
               {items.map(it => (
-                <div key={it.id} onClick={() => cycleStatus(it.id, it.status)} style={{display:"flex",alignItems:"center",gap:10,padding:"9px 0",borderBottom:"1px solid #f8f4ee",cursor:"pointer"}}>
-                  <div style={{width:58,padding:"3px 0",background:SCOL[it.status]+"22",borderRadius:6,textAlign:"center",fontSize:9,fontWeight:"bold",color:SCOL[it.status],letterSpacing:1,flexShrink:0}}>{SLBL[it.status]}</div>
-                  <span style={{fontSize:14,flex:1,opacity:it.status==="brak"?0.5:1}}>{it.name}</span>
+                <div key={it.id} style={{display:"flex",alignItems:"center",gap:10,padding:"9px 0",borderBottom:"1px solid #f8f4ee"}}>
+                  <div onClick={() => cycleStatus(it.id, it.status)} style={{width:58,padding:"3px 0",background:SCOL[it.status]+"22",borderRadius:6,textAlign:"center",fontSize:9,fontWeight:"bold",color:SCOL[it.status],letterSpacing:1,flexShrink:0,cursor:"pointer"}}>{SLBL[it.status]}</div>
+                  <span onClick={() => cycleStatus(it.id, it.status)} style={{fontSize:14,flex:1,opacity:it.status==="brak"?0.5:1,cursor:"pointer"}}>{it.name}</span>
+                  <button onClick={() => addPantryToCart(it)} style={{background:"#2d2416",color:"#faf7f2",border:"none",borderRadius:6,padding:"4px 8px",cursor:"pointer",fontSize:10,fontFamily:"inherit",flexShrink:0}}>+ koszyk</button>
                 </div>
               ))}
             </div>;
