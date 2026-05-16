@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite / build output
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Lokalne narzedzia (nie pchamy na GitHub)
+install-auto-push.command
+uninstall-auto-push.command
+.auto-push-trigger
+diagnostic.command
+.diagnostic.command
+.diagnostic-output.txt
